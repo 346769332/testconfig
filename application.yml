@@ -1,0 +1,12 @@
+server:
+  port: 8090
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/346769332/testconfig.git
+          username: 346769332@qq.com
+          #password: Zcz123456?
+        default-application-name: configserver
+
